@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    list-style: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #778beb;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    
+    img {
+        width: 180px;
+    }
+
+    button {
+        background-color: transparent;
+        color: black;
+        border-radius: 8px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-bottom: 4px;
+        font-size: 28px;
+        font-weight: bold;
+        border: 3px solid black;
+        align-items: center;
+
+        &:hover {
+            background-color: rgb(156, 167, 221);
+            cursor: pointer;
+        }
+    }
+}
+
+.container {
+    max-width: 720px;
+    display: flex;
+
+    .hero {
+        padding-top: 220px;
+        padding-left: 25%;
+    
+        h2 {
+            padding-left: 52px;
+        }
+    
+        ul {
+            padding-top: 36px;
+            display: flex;
+        }
+    
+        img {
+            width: 100px;
+    
+            &.crunchyroll {
+                width: 180px;
+            }
+        }
+
+        .btn-hero {
+            background-color: #778beb;
+            color: black;
+            border-radius: 8px;
+            padding-left: 8px;
+            padding-right: 8px;
+            padding-bottom: 4px;
+            font-size: 28px;
+            font-weight: bold;
+            border: 3px solid black;
+            margin-left: 104px;
+            margin-top: 32px;
+
+            &:hover {
+                background-color: rgb(156, 167, 221);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.rec-img {
+    padding-left: 42%;
+
+    img {
+        width: 1100px;
+    }
+}
+.sobre {
+    padding-bottom: 120px;
+
+    .sobre-header {
+        padding-top: 88px;
+        h2 {
+            text-align: center;
+            color: #778beb;
+            font-weight: bold;
+        }
+    }
+
+    .explicacao {
+    padding-left: 18%;
+    padding-top: 32px;
+
+        img {
+            width: 1240px;
+        }
+
+        p {
+            padding-top: 32px;
+            width: 82%;
+        }
+    }
+}
+
+footer {
+
+    .footer {
+        max-width: 2200px;
+        width: 100%;
+        margin: 0 auto;
+        background-color: #778beb;
+        text-align: center;
+    } 
+}
